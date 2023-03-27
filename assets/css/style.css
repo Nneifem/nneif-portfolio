@@ -26,10 +26,15 @@ aside {
     margin: 20px;
 }
 
-p {
+/* p {
     display: flex;
     justify-content: center;
     position: relative;
     top: -270px;
     left: -350px;
+} */
+
+/* The work section design */
+img{
+    height: 300px;
 }
