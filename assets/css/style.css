@@ -1,4 +1,4 @@
-/* The header and navgitation design*/
+/* The header and navgitation design */
 h1{
     display:inline-block;
 }
@@ -16,25 +16,24 @@ nav ul li{
 }
 
 /* The side menu design */
-aside {
-    border: 4px solid black;
-    width: 20%;
-    border-right: 4px solid purple;
-    min-height: 35vh;
+.aside-divider {
+    border: 2px solid black;
+    width: 30%;
+    min-height: 10vh;
     display: flex;
     justify-content: flex-end;
     margin: 20px;
 }
 
-/* p {
+p{
     display: flex;
     justify-content: center;
-    position: relative;
-    top: -270px;
-    left: -350px;
-} */
-
+    padding-right: 380px;
+    margin: -85px;
+}
 /* The work section design */
 img{
     height: 300px;
 }
+
+/* The contact section design */
