@@ -18,24 +18,37 @@
     display: inline-block;
 }
 
-/* Main section of the portfolio */
+/* Work section of the portfolio */
 .section {
-    margin-bottom: 1rem;
+    min-width: 200px;
+    gap: 1rem;
 }
 
 .image {
-    display: inline-block;
     height: 300px;
+    padding-top: 30px;
+}
+
+/* Contact section of the portfolio*/
+.section-body ul {
+    list-style: none;
 }
 
 .image-contact {
-    height: 300px
+    height: 300px;
+    padding-top: 30px;
 }
+
 /* Resizing the webpage depending on the size*/
+@media screen and (min-width: 992px){
+    .section {
+        display: flex;
+    }
+}
+ 
 @media screen and (min-width: 768px) {
     .section {
         display: flex;
-        gap: 1rem;
     }
 
     .section-heading {
@@ -43,6 +56,5 @@
         border-right: 3px solid black;
         text-align: right;
         padding-right: 1rem;
-        /* margin-right: 1rem; */
     }
 }
