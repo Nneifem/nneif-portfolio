@@ -24,9 +24,18 @@
     gap: 1rem;
 }
 
+.section-body h3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.image-one {
+    height: 500px;
+}
+
 .image {
     height: 300px;
-    padding-top: 30px;
 }
 
 /* Contact section of the portfolio*/
