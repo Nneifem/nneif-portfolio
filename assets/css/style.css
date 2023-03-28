@@ -1,68 +1,48 @@
-/* The header and navgitation design */
-h1{
-    display:inline-block;
+/* Header and navigation of the portfolio */
+.header {
+    padding: 10px;
+}
+.header h1{ 
+    display: inline-block;
 }
 
-nav{
-    float: right; 
+.header nav {
+    float: right;
 }
 
-nav ul {
+.header ul {
     list-style: none;
 }
-nav ul li{
+
+.header ul li {
     display: inline-block;
-    margin-left: 25px;
 }
 
-/* The side menu design */
-.aside-divider {
-    border: 2px solid black;
-    border-left: 0px;
-    border-top: 0px;
-    border-bottom: 0px;
-    width: 20%;
-    min-height: 10vh;
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px;
+/* Main section of the portfolio */
+.section {
+    margin-bottom: 1rem;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    margin: -90px;
-}
-
-/* The work section design */
-.aside-divider-two {
-    border: 2px solid black;
-    width: 100%;
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-}
-
-img{
+.image {
     display: inline-block;
     height: 300px;
-    margin-top: 10px;
 }
 
-/* The contact section design */
-.aside-divider-three{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+.image-contact {
+    height: 300px
 }
+/* Resizing the webpage depending on the size*/
+@media screen and (min-width: 768px) {
+    .section {
+        display: flex;
+        gap: 1rem;
+    }
 
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    display: inline-block;
-    padding-left: 45%;
+    .section-heading {
+        min-width: 200px;
+        border-right: 3px solid black;
+        text-align: right;
+        padding-right: 1rem;
+        /* margin-right: 1rem; */
+    }
 }
