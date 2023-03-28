@@ -18,7 +18,7 @@ nav ul li{
 /* The side menu design */
 .aside-divider {
     border: 2px solid black;
-    width: 30%;
+    width: 20%;
     min-height: 10vh;
     display: flex;
     justify-content: flex-end;
@@ -28,12 +28,23 @@ nav ul li{
 p{
     display: flex;
     justify-content: center;
-    padding-right: 380px;
-    margin: -85px;
+    padding-left: 10px;
+    margin: -90px;
+}
+
+.aside-divider-two {
+    border: 2px solid black;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 /* The work section design */
 img{
+    display: inline-block;
     height: 300px;
+    margin-top: 10px;
 }
 
 /* The contact section design */
