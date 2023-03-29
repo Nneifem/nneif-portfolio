@@ -9,7 +9,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
-This website was built as a profile to show to future companies I applied to in order for them to be able to get to know me, see previous works I have done, and have a way to reach out to me. It also allows for the website to be readable and organized no matter the device it's being viewed on. 
+This website was built as a profile to show to future companies I applied to in order for them to be able to get to know me, see previous works I have done, and have a way to reach out to me. It also allows for the website to be readable and organized no matter the device it's being viewed on. It helped me learn how to structure a website no matter the size of the screen as people mostly view websites on their phones first.
 
 
 ## Usage
@@ -44,3 +44,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## Link
+
+Here is the link to the repo for the project: https://github.com/Nneifem/nneif-portfolio
+
+Here is the link to the website: https://nneifem.github.io/nneif-portfolio/
