@@ -10,16 +10,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: #cd6e27;
+    background-color: #2f1909;
 }
 
 .header h1 {
     font-size: 42px;
-    color: #2f1909
+    color: #f2d3bc;
 }
 
 .header a {
-    color: #2f1909;
+    color: #f2d3bc;
 }
 
 .header nav {
@@ -35,6 +35,12 @@ body {
 .header ul li {
     display: inline-block;
     padding: 20px;
+}
+
+/* image section */
+#background-image {
+    background-image: url("../images/101215-brown-circle-pattern.jpg");
+    height: 200px;
 }
 
 /* main body section */
@@ -71,16 +77,25 @@ body {
     padding-bottom: 20px;
 }
 
+.image-one:hover {
+    opacity: 0.3;
+}
+
 .image-two {
     height: 300px;
     padding-bottom: 20px;
 }
 
+.image-two:hover {
+    opacity: 0.3;
+}
+
 .section-body h3 {
     border: 2px solid #140b03;
+    height: 5%;
     text-align: center;
-    background-color: #cd6e27;
-    color: #2f1909;
+    background-color: #2f1909;;
+    color: #f2d3bc;
     font-size: 24px;
 }
 
