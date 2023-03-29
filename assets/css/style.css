@@ -1,14 +1,14 @@
-/* base color for the page */
-body {
-    background-color: #e9c9ae;
-    font-family: "Florence"
-}
-
-/* Header and navigation of the portfolio */
+/* Header/navigation section */
 .header {
     display: flex;
-    background-color: #d6762e;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.header nav {
+    display: flex;
+    justify-content: right;
 }
 
 .header ul {
@@ -17,61 +17,54 @@ body {
 
 .header ul li {
     display: inline-block;
-    padding-right: 30px;
-    font-size: 19px;
+    padding: 20px;
 }
 
-/* Work section of the portfolio */
+/* main body section */
 .section {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.section-heading {
     min-width: 200px;
-    gap: 1rem;
+    border-right: 2px solid black;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.section-body {
+    padding-left: 30px;
+}
+
+/* about me section */
+
+
+/* work section */
+.image-one {
+    height: 500px;
+    padding: 20px;
+}
+
+.image-two {
+    height: 300px;
+    padding: 20px;
 }
 
 .section-body h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-
+    border: 2px solid black;
+    padding-bottom: 4px;
+    text-align: center;
 }
 
-.image-one {
-    border: 6px solid #0d0702;
-    height: 500px;
+/* contact section */
+.image-contact {
+    height: 100px;
 }
 
-.image {
-    border: 6px solid #0d0702;
-    height: 300px;
-}
-
-/* Contact section of the portfolio */
 .section-body ul {
+    display: inline-block;
     list-style: none;
 }
 
-.image-contact {
-    height: 300px;
-    padding-top: 30px;
-}
-
-/* Resizing the webpage depending on the size*/
-@media screen and (min-width: 992px){
-    .section {
-        display: flex;
-    }
-}
- 
-@media screen and (min-width: 768px) {
-    .section {
-        display: flex;
-    }
-
-    .section-heading {
-        font-size: 24px;
-        min-width: 200px;
-        border-right: 3px solid black;
-        text-align: right;
-        padding-right: 1rem;
-        margin: 15px;
-    }
-}
+/* resizing the screen */
