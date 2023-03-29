@@ -68,3 +68,37 @@
 }
 
 /* resizing the screen */
+@media screen and (max-width: 768px){
+    .header {
+        display: block;
+
+    }
+
+    .header h1 {
+        text-align: center;
+    }
+
+    .header nav {
+        display: inline-block;
+    }
+
+    .section {
+        display: block;
+        margin: 30px;
+    }
+
+    .section-heading {
+        text-align: left;
+        border: 0px;
+    }
+
+    .image-one {
+        width: 100%;
+        height: 50%;
+    }
+
+    .image-two {
+        width: 100%;
+        height: 50%;
+    }
+}
