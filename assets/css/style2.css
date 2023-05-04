@@ -31,12 +31,37 @@
 
 .section-heading {
     border-right: solid black 2px;
+    padding: 20px;
     padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-    padding-top: 20px;
 }
 
 .section-body {
     padding: 20px;
+}
+
+/* --------------------- work section --------------------- */
+#work {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 5px;
+}
+
+.section-body {
+    display: flex;
+}
+
+.section2-body{ 
+    display: flex;
+}
+
+.image-one {
+    width: 70%
+}
+
+.image-two {
+    width: 50%
+}
+
+.image-three {
+    width: 50%
 }
