@@ -1,0 +1,42 @@
+
+/* --------------------- navigation section, top page --------------------- */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 9px;
+}
+
+/* --------------------- about me section --------------------- */
+#about-me {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.section-heading {
+    border-right: solid black 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-body {
+    padding: 20px;
+}

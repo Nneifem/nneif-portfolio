@@ -105,6 +105,15 @@ body {
     opacity: 0.3;
 }
 
+.image-three {
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+.image-t:hover {
+    opacity: 0.3;
+}
+
 .section-body h3 {
     border: 2px solid #140b03;
     height: 5%;
@@ -160,6 +169,11 @@ body {
     }
 
     .image-two {
+        width: 70%;
+        height: 70%;
+    }
+
+    .image-three {
         width: 70%;
         height: 70%;
     }
